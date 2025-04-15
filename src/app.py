@@ -8,8 +8,8 @@ api = os.getenv("GROQ_API_KEY")
 
 # --- Streamlit Setup ---
 st.set_page_config(page_title="SQL Query Generator", layout="centered")
-st.title("Natural Language to SQL Generator")
-print("reloading...")
+st.title("My Natural Language to SQL Generator")
+
 
 st.markdown("""
 There are four tables in the database:
